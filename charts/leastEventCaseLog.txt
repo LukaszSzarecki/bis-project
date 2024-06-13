@@ -1,0 +1,7 @@
+Information for case_id '469':
+
+Events                                    6
+FirstOccurence    2014-05-31 15:07:00+02:00
+LastOccurence     2014-05-31 17:28:33+02:00
+Duration                    0 days 02:21:33
+DurationHours                      2.359167

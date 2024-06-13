@@ -1,0 +1,7 @@
+Information for case_id '406':
+
+Events                                    8
+FirstOccurence    2014-05-10 15:56:58+02:00
+LastOccurence     2014-05-10 16:15:00+02:00
+Duration                    0 days 00:18:02
+DurationHours                      0.300556

@@ -1,0 +1,7 @@
+Information for case_id '507':
+
+Events                                  185
+FirstOccurence    2014-06-17 01:17:11+02:00
+LastOccurence     2014-10-09 10:00:00+02:00
+Duration                  114 days 08:42:49
+DurationHours                   2744.713611

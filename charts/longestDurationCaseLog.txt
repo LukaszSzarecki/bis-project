@@ -1,0 +1,7 @@
+Information for case_id '136':
+
+Events                                   20
+FirstOccurence    2014-02-05 15:09:05+02:00
+LastOccurence     2015-04-03 10:55:52+02:00
+Duration                  421 days 19:46:47
+DurationHours                  10123.779722
