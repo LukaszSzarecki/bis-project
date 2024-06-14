@@ -1,0 +1,628 @@
+{
+  "equivalence": [
+    [
+      "IV Liquid",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Release C",
+      "ER Sepsis Triage"
+    ],
+    [
+      "ER Sepsis Triage",
+      "ER Registration"
+    ],
+    [
+      "Return ER",
+      "IV Liquid"
+    ],
+    [
+      "Release B",
+      "IV Antibiotics"
+    ],
+    [
+      "Return ER",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Release A",
+      "ER Triage"
+    ],
+    [
+      "Release D",
+      "IV Antibiotics"
+    ],
+    [
+      "Release B",
+      "ER Registration"
+    ],
+    [
+      "Release A",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Release E",
+      "IV Antibiotics"
+    ],
+    [
+      "Release D",
+      "ER Registration"
+    ],
+    [
+      "Return ER",
+      "Release A"
+    ],
+    [
+      "ER Sepsis Triage",
+      "ER Triage"
+    ],
+    [
+      "IV Antibiotics",
+      "ER Registration"
+    ],
+    [
+      "Release E",
+      "ER Registration"
+    ],
+    [
+      "ER Registration",
+      "ER Triage"
+    ],
+    [
+      "ER Registration",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Admission IC",
+      "IV Antibiotics"
+    ],
+    [
+      "Release B",
+      "ER Triage"
+    ],
+    [
+      "ER Triage",
+      "IV Antibiotics"
+    ],
+    [
+      "Release B",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Release C",
+      "IV Antibiotics"
+    ],
+    [
+      "Admission IC",
+      "ER Registration"
+    ],
+    [
+      "Return ER",
+      "IV Antibiotics"
+    ],
+    [
+      "IV Liquid",
+      "IV Antibiotics"
+    ],
+    [
+      "Release D",
+      "ER Triage"
+    ],
+    [
+      "Release D",
+      "ER Sepsis Triage"
+    ],
+    [
+      "ER Triage",
+      "ER Registration"
+    ],
+    [
+      "IV Antibiotics",
+      "ER Triage"
+    ],
+    [
+      "Release C",
+      "ER Registration"
+    ],
+    [
+      "Release E",
+      "ER Triage"
+    ],
+    [
+      "Release E",
+      "ER Sepsis Triage"
+    ],
+    [
+      "Release E",
+      "IV Liquid"
+    ],
+    [
+      "IV Antibiotics",
+      "ER Sepsis Triage"
+    ],
+    [
+      "IV Liquid",
+      "ER Registration"
+    ],
+    [
+      "Release A",
+      "IV Antibiotics"
+    ],
+    [
+      "Return ER",
+      "ER Registration"
+    ],
+    [
+      "IV Antibiotics",
+      "IV Liquid"
+    ],
+    [
+      "Admission IC",
+      "ER Triage"
+    ],
+    [
+      "Release A",
+      "ER Registration"
+    ],
+    [
+      "Admission IC",
+      "ER Sepsis Triage"
+    ],
+    [
+      "ER Triage",
+      "ER Sepsis Triage"
+    ],
+    [
+      "ER Sepsis Triage",
+      "IV Antibiotics"
+    ],
+    [
+      "Release C",
+      "ER Triage"
+    ],
+    [
+      "ER Registration",
+      "IV Antibiotics"
+    ],
+    [
+      "Return ER",
+      "ER Triage"
+    ],
+    [
+      "IV Liquid",
+      "ER Triage"
+    ]
+  ],
+  "always_after": [
+    [
+      "Release E",
+      "Return ER"
+    ],
+    [
+      "Release C",
+      "Return ER"
+    ],
+    [
+      "Release A",
+      "Return ER"
+    ],
+    [
+      "Release D",
+      "Return ER"
+    ]
+  ],
+  "always_before": [],
+  "never_together": [
+    [
+      "CRP",
+      "Release B"
+    ],
+    [
+      "Admission NC",
+      "Release D"
+    ],
+    [
+      "Release D",
+      "Release E"
+    ],
+    [
+      "Admission IC",
+      "Release D"
+    ],
+    [
+      "Admission NC",
+      "Release C"
+    ],
+    [
+      "Admission NC",
+      "Release B"
+    ],
+    [
+      "ER Triage",
+      "Release D"
+    ],
+    [
+      "Admission IC",
+      "Release B"
+    ],
+    [
+      "IV Antibiotics",
+      "Release E"
+    ],
+    [
+      "CRP",
+      "Release E"
+    ],
+    [
+      "Admission IC",
+      "Release C"
+    ],
+    [
+      "LacticAcid",
+      "Admission IC"
+    ],
+    [
+      "ER Triage",
+      "Release B"
+    ],
+    [
+      "ER Triage",
+      "Release C"
+    ],
+    [
+      "Release C",
+      "Release D"
+    ],
+    [
+      "IV Liquid",
+      "Release D"
+    ],
+    [
+      "Release C",
+      "Release A"
+    ],
+    [
+      "Leucocytes",
+      "Return ER"
+    ],
+    [
+      "Admission NC",
+      "Release E"
+    ],
+    [
+      "Return ER",
+      "Release D"
+    ],
+    [
+      "Admission IC",
+      "Release E"
+    ],
+    [
+      "IV Liquid",
+      "Release C"
+    ],
+    [
+      "IV Liquid",
+      "Release B"
+    ],
+    [
+      "Return ER",
+      "Release B"
+    ],
+    [
+      "Release C",
+      "Release B"
+    ],
+    [
+      "Return ER",
+      "Release C"
+    ],
+    [
+      "Release A",
+      "Release D"
+    ],
+    [
+      "ER Triage",
+      "Release E"
+    ],
+    [
+      "CRP",
+      "Admission IC"
+    ],
+    [
+      "Leucocytes",
+      "Release D"
+    ],
+    [
+      "Release A",
+      "Release B"
+    ],
+    [
+      "Release A",
+      "Release C"
+    ],
+    [
+      "Return ER",
+      "Release E"
+    ],
+    [
+      "IV Liquid",
+      "Release E"
+    ],
+    [
+      "Release C",
+      "Release E"
+    ],
+    [
+      "Leucocytes",
+      "Release C"
+    ],
+    [
+      "Leucocytes",
+      "Release B"
+    ],
+    [
+      "Admission NC",
+      "Admission IC"
+    ],
+    [
+      "Release B",
+      "Return ER"
+    ],
+    [
+      "ER Sepsis Triage",
+      "Release D"
+    ],
+    [
+      "Release A",
+      "Release E"
+    ],
+    [
+      "ER Sepsis Triage",
+      "Release C"
+    ],
+    [
+      "ER Registration",
+      "Release D"
+    ],
+    [
+      "ER Sepsis Triage",
+      "Release B"
+    ],
+    [
+      "Leucocytes",
+      "Release E"
+    ],
+    [
+      "Release B",
+      "Release D"
+    ],
+    [
+      "ER Registration",
+      "Release C"
+    ],
+    [
+      "ER Registration",
+      "Release B"
+    ],
+    [
+      "Release B",
+      "Release A"
+    ],
+    [
+      "Release C",
+      "Admission IC"
+    ],
+    [
+      "LacticAcid",
+      "Release D"
+    ],
+    [
+      "Release B",
+      "Release C"
+    ],
+    [
+      "LacticAcid",
+      "Release C"
+    ],
+    [
+      "ER Sepsis Triage",
+      "Release E"
+    ],
+    [
+      "LacticAcid",
+      "Release B"
+    ],
+    [
+      "Release D",
+      "Release A"
+    ],
+    [
+      "ER Registration",
+      "Release E"
+    ],
+    [
+      "Release D",
+      "Release C"
+    ],
+    [
+      "Release D",
+      "Release B"
+    ],
+    [
+      "Release E",
+      "Release D"
+    ],
+    [
+      "Leucocytes",
+      "Admission IC"
+    ],
+    [
+      "Release E",
+      "Release A"
+    ],
+    [
+      "IV Antibiotics",
+      "Release D"
+    ],
+    [
+      "Release B",
+      "Release E"
+    ],
+    [
+      "LacticAcid",
+      "Release E"
+    ],
+    [
+      "CRP",
+      "Release D"
+    ],
+    [
+      "Release E",
+      "Release C"
+    ],
+    [
+      "Release E",
+      "Release B"
+    ],
+    [
+      "IV Antibiotics",
+      "Release C"
+    ],
+    [
+      "IV Antibiotics",
+      "Release B"
+    ],
+    [
+      "CRP",
+      "Release C"
+    ]
+  ],
+  "directly_follows": [
+    [
+      "ER Registration",
+      "ER Triage"
+    ]
+  ],
+  "activ_freq": {
+    "ER Registration": [
+      1
+    ],
+    "ER Triage": [
+      1,
+      2
+    ],
+    "ER Sepsis Triage": [
+      1
+    ],
+    "LacticAcid": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      37,
+      11,
+      12,
+      13,
+      15,
+      26,
+      31
+    ],
+    "Leucocytes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      21,
+      22,
+      24,
+      38,
+      74
+    ],
+    "CRP": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      18,
+      19,
+      24,
+      36,
+      69
+    ],
+    "IV Liquid": [
+      0,
+      1
+    ],
+    "IV Antibiotics": [
+      0,
+      1
+    ],
+    "Admission NC": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Release A": [
+      0,
+      1
+    ],
+    "Return ER": [
+      0,
+      1
+    ],
+    "Admission IC": [
+      0,
+      1,
+      2
+    ],
+    "Release B": [
+      0,
+      1
+    ],
+    "Release C": [
+      0,
+      1
+    ],
+    "Release D": [
+      0,
+      1
+    ],
+    "Release E": [
+      0,
+      1
+    ]
+  }
+}
